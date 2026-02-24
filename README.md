@@ -9,9 +9,3 @@ Tento repozitář obsahuje zdrojový kód a data k semestrální práci.
 * **`environment.yml`**: Soubor pro vytvoření Conda prostředí se všemi potřebnými závislostmi pro reprodukci výsledků.
 * **`*.csv`**: Soubory obsahující naměřené výsledky a metriky všech experimentálních běhů.
 
-## Instalace a reprodukce
-
-Pro reprodukci výsledků doporučuji vytvořit nové prostředí pomocí přiloženého konfiguračního souboru:
-
-```bash
-conda env create -f environment.yml
